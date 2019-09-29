@@ -37,6 +37,7 @@ function iLoveTheBeatles (number) {
     arr [number] = [''];
     arr [number] += "I love the Beatles!";
     number++;
+    number -= 15;
   }
   while (number < 15);
   
