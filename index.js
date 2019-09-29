@@ -35,5 +35,7 @@ function iLoveTheBeatles (number) {
   
   let j = 0;
   do
-    arr [i] += "I love the Beatles"
+    arr [j] = [''];
+    arr [j] += "I love the Beatles!";
+  while (j < 15);
 }
