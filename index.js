@@ -22,8 +22,8 @@ function johnLennonFacts (arr) {
   
   let i = 0;
   while (i < facts.length) {
-    array[i] += facts[i] + "!!!";
+    arr[i] += facts[i] + "!!!";
   }
   
-  return array;
+  return arr;
 }
