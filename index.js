@@ -34,8 +34,10 @@ function iLoveTheBeatles (number) {
   var arr = [''];
   
   let j = 0;
-  do
+  do {
     arr [j] = [''];
     arr [j] += "I love the Beatles!";
+    j++;
+  }
   while (j < 15);
 }
