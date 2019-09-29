@@ -18,8 +18,6 @@ function johnLennonFacts (array) {
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice",
-  "foo",
-  "bar"
   ];
   
   let i = 0;
