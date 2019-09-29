@@ -32,14 +32,13 @@ function johnLennonFacts (array) {
 
 function iLoveTheBeatles (number) {
   var arr = [''];
-  number = 15;
-  let j = 0;
+
   do {
-    arr [j] = [''];
-    arr [j] += "I love the Beatles!";
-    j++;
+    arr [number] = [''];
+    arr [number] += "I love the Beatles!";
+    number++;
   }
-  while (j < number);
+  while (number < 15);
   
   return arr;
 }
