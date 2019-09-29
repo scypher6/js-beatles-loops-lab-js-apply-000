@@ -41,5 +41,5 @@ function iLoveTheBeatles (number) {
   }
   while (j < number);
   
-  return number
+  return arr;
 }
