@@ -12,7 +12,7 @@ function theBeatlesPlay (musicians, instruments) {
   return musicFacts;
 }
 
-function johnLennonFacts (arr) {
+function johnLennonFacts (array) {
   const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
@@ -22,8 +22,9 @@ function johnLennonFacts (arr) {
   
   let i = 0;
   while (i < facts.length) {
-    arr[i] += facts[i] + "!!!";
+    array[i] += facts[i] + "!!!";
+    i++;
   }
   
-  return arr;
+  return array;
 }
